@@ -44,7 +44,7 @@ console.log(marvel_heroes[3][1]);
 const allheroes = marvel_heroes.concat(dc_heroes)  // returns new arrays without modifying the original array
 console.log(allheroes);
 
-spread operator actually spread the arrays
+// spread operator actually spread the arrays
 const all_new_heroes = [...marvel_heroes, ...dc_heroes]
 console.log(all_new_heroes)
 
